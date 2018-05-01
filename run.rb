@@ -1,11 +1,13 @@
 require 'intercom'
 require './conversation_parser'
 require './conversation_api'
+require './file_writer'
 
 
 @intercom = Intercom::Client.new(token: ENV["PANDA_INTERCOM_ACCESS_TOKEN"])
 @conversation_parser = ConversationParser.new(@intercom)
 @conversation_api = ConversationApi.new()
+@file_writer = FileWriter.new("test")
 
 # Get all conversations
 # conversations = @conversation_api.get_all_conversations()
