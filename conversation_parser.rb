@@ -35,9 +35,8 @@ class ConversationParser
 
 	    puts "PAGINATION: page #{conversations['pages']['page']} of #{conversations["pages"]["total_pages"]}"
 	    write_to_file("PAGE #{conversations['pages']['page']}")
-	    # current_page = conversations['pages']['next']
-	    conversations = conversation_api.get_next_page_of_conversations(conversations['pages']['next'])
 	    current_page = conversations['pages']['next']
+	    conversations = conversation_api.get_next_page_of_conversations(conversations['pages']['next'])
 	  end
 
 	  write_footer_to_file
