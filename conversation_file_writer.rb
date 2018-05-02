@@ -69,7 +69,8 @@ class ConversationFileWriter
 	def write_header_to_file(start_time = nil)
 		write_top_separator
 		write_to_file("PANDA Intercom export archive script")
-		write_to_file("Started on: #{start_time ? start_time : Time.now}")
+		write_to_file("Started at: #{start_time ? start_time : Time.now}")
+		write_to_file("Finished at: #{Time.now}")
 		write_to_file("By: Arnaud Lenglet (@arnlen)")
 		write_bottom_separator
 	end

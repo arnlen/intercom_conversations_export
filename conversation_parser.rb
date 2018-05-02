@@ -63,23 +63,43 @@ class ConversationParser
 
     parsed = case author_type
     when "admin"
-      author = user_api.get_admin_by_id(author_id)
-      puts "Found author: #{author}"
+      begin
+        author = user_api.get_admin_by_id(author_id)
+        puts "Found admin: #{author}"
 
-      {
-        type: "admin",
-        name: author.name,
-        email: author.email
-      }
+        {
+          type: "admin",
+          name: author.name,
+          email: author.email
+        }
+      rescue Intercom::UnexpectedError
+        puts "ADMIN NOT FOUND: #{author_id}"
+
+        {
+          type: "admin",
+          name: "Admin not found",
+          email: ""
+        }
+      end
     when "user"
-      author = user_api.get_user_by_id(author_id)
-      puts "Found author: #{author}"
+      begin
+        author = user_api.get_user_by_id(author_id)
+        puts "Found user: #{author}"
 
-      {
-        type: "user",
-        name: author.name,
-        email: author.email
-      }
+        {
+          type: "user",
+          name: author.name,
+          email: author.email
+        }
+      rescue Intercom::UnexpectedError
+        puts "USER NOT FOUND: #{author_id}"
+
+        {
+          type: "user",
+          name: "User not found",
+          email: ""
+        }
+      end
     when "bot"
       {
         type: "bot",

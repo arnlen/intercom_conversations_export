@@ -88,3 +88,97 @@ PART BODY:
 ------------- ------------- ------------- ------------- ------------- -------------
 
 
+
+
+------------- ------------- ------------- -------------
+------------- ------------- CONVERSATION 12699968897 START ------------- -------------
+
+
+CONVERSATION ID: 12699968897
+NUM PARTS: 1
+
+
+------------- ------------- ------------- -------------
+PART TYPE: close
+PART AUTHOR: Jeremy Delage (jeremy@pandaguidesme.com)
+PART BODY:
+
+Stéphane, Je suis Jeremy Delage, responsable Marketing et Communication chez PANDA-Guide. Suite à votre message et à notre conversation téléphonique. Comme vu avec vous au téléphone : nous sommes encore en phase de prototypage, et ne pouvons pas aujourd'hui nous déplacer pour faire de démonstration. Comme je vous disais à l'instant, je peux voir avec mes équipes s'il est possible de vous convier vous, ou un autre membre de votre équipe à notre prochaine démonstration qui devrait avoir lieue d'ici 5-6 semaines. J'attends votre retour, pour une éventuelle rencontre, et suis à votre disposition si vous avez des questions ou remarques. Jeremy Delage - 06.17.13.21.55 - jeremy@pandaguidesme.com 
+
+
+------------- ------------- CONVERSATION 12699968897 END ------------- -------------
+------------- ------------- ------------- ------------- ------------- -------------
+
+
+
+
+------------- ------------- ------------- -------------
+------------- ------------- CONVERSATION 12468256491 START ------------- -------------
+
+
+CONVERSATION ID: 12468256491
+NUM PARTS: 6
+
+
+------------- ------------- ------------- -------------
+PART TYPE: comment
+PART AUTHOR: Not found ()
+PART BODY:
+
+Bonjour, 
+Merci beaucoup pour votre intérêt pour PANDA Guide, je vais voir avec les disponibilités d'Arnaud (co-fondateur et CEO). 
+S'agit-il d'une interview par téléphone ou sur place à la Maison de la Radio ?
+Bien cordialement, Raphaëlle
+
+
+------------- ------------- ------------- -------------
+PART TYPE: comment
+PART AUTHOR:  (jerome.colombain@radiofrance.com)
+PART BODY:
+
+Bonjour, Il faudrait venir à la maison de la radio  Merci   Cordialement, Jerome Colombain France Info radio / Chronique « Nouveau Monde » Le 23 oct. 2017 à 17:55, Raphaëlle de PANDA Guide <raphaelle.martin@panda-guide-aa24f1020d2f.intercom-mail.com> a écrit :
+
+
+------------- ------------- ------------- -------------
+PART TYPE: comment
+PART AUTHOR: Not found ()
+PART BODY:
+
+Bonjour, Merci beaucoup pour ces précisions.Arnaud Lenglet, cofondateur et CEO, est disponible jeudi 26 octobre à 11h30. A quelle heure faudrait-il être présent à la Maison de la Radio ?Est-ce du direct ou un enregistrement ? 
+Je reste à votre entière disponibilité pour tout renseignement complémentaire au 0677713737 ou par mail à l'adresse raphaelle@pandaguidesme.com
+Excellente journée, Raphaëlle
+
+
+------------- ------------- ------------- -------------
+PART TYPE: comment
+PART AUTHOR: Not found ()
+PART BODY:
+
+Bonjour Jérôme,
+Je vous présente toutes mes excuses, je me suis trompée en vous répondant toute à l’heure. 
+Arnaud n’a malheureusement pas de disponibilités cette semaine, et ce mois ci est extrêmement chargé pour nous. Serait-il possible de différer l’interview pour fin novembre ?
+Encore une fois désolée pour le dérangement. 
+Bien cordialement, Raphaëlle
+
+
+------------- ------------- ------------- -------------
+PART TYPE: comment
+PART AUTHOR:  (jerome.colombain@radiofrance.com)
+PART BODY:
+
+OK dommage. Revenez vers moi fin novembre, svp. Cordialement, Jerome Colombain France Info radio / Chronique « Nouveau Monde » 
+Le 24 oct. 2017 à 13:04, Raphaëlle de PANDA Guide <raphaelle.martin@panda-guide-aa24f1020d2f.intercom-mail.com> a écrit :
+
+
+------------- ------------- ------------- -------------
+PART TYPE: close
+PART AUTHOR: Jeremy Delage (jeremy@pandaguidesme.com)
+PART BODY:
+
+
+
+
+------------- ------------- CONVERSATION 12468256491 END ------------- -------------
+------------- ------------- ------------- ------------- ------------- -------------
+
+
