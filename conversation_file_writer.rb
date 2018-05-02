@@ -4,7 +4,7 @@ class ConversationFileWriter
 	attr_accessor :output_file_path
 
 	def initialize
-		@output_file_path = "conversation_exports/debug.txt"
+		@output_file_path = "conversation_exports/debug.export"
 	end
 
 	def write_single_conversation_to_file(single_conversation, output_file_name)
