@@ -4,7 +4,8 @@ require './conversation_parser'
 require './conversation_api'
 require './conversation_file_writer'
 
-@output_file_name = "#{Time.now.to_i}_panda_intercom.export"
+@start_time = Time.now
+@output_file_name = "#{@start_time.to_i}_panda_intercom.export"
 
 @intercom = Intercom::Client.new(token: ENV["PANDA_INTERCOM_ACCESS_TOKEN"])
 @conversation_parser = ConversationParser.new(@intercom, @output_file_name)
@@ -12,12 +13,12 @@ require './conversation_file_writer'
 @conversation_file_writer = ConversationFileWriter.new()
 
 
-puts ">>> --- Script started @ #{Time.now}"
+puts ">>> --- Script started @ #{@start_time}"
 
 # Get all conversations
 conversations = @conversation_api.get_all_conversations()
 parsed_conversations = @conversation_parser.parse_conversations(conversations)
-@conversation_file_writer.write_conversations_to_file(parsed_conversations, @output_file_name)
+@conversation_file_writer.write_conversations_to_file(parsed_conversations, @output_file_name, @start_time)
 
 # Debug: Get one conversation
 # conversation = @conversation_api.get_single_conversation(15993610078)

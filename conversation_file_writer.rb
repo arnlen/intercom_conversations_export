@@ -21,14 +21,14 @@ class ConversationFileWriter
 	  write_bottom_separator
 	end
 
-	def write_conversations_to_file(conversations, output_file_name)
+	def write_conversations_to_file(conversations, output_file_name, start_time = nil)
 		initialize_file(output_file_name)
-		write_header_to_file
+		write_header_to_file(start_time)
 
 		total_conversations = conversations.size
 
-		conversations.each_with_index do |index, single_conversation|
-			write_to_file("Exporting conversation #{index} of #{total_conversations}")
+		conversations.each_with_index do |single_conversation, index|
+			write_to_file("Exporting conversation #{index + 1} of #{total_conversations}")
 			write_single_conversation_to_file(single_conversation, output_file_name)
 		end
 
@@ -66,10 +66,10 @@ class ConversationFileWriter
 		end
 	end
 
-	def write_header_to_file
+	def write_header_to_file(start_time = nil)
 		write_top_separator
 		write_to_file("PANDA Intercom export archive script")
-		write_to_file("Started on: #{Time.now}")
+		write_to_file("Started on: #{start_time ? start_time : Time.now}")
 		write_to_file("By: Arnaud Lenglet (@arnlen)")
 		write_bottom_separator
 	end

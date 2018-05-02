@@ -1,0 +1,90 @@
+
+
+------------- ------------- ------------- -------------
+------------- ------------- CONVERSATION 15993610078 START ------------- -------------
+
+
+CONVERSATION ID: 15993610078
+NUM PARTS: 8
+
+
+------------- ------------- ------------- -------------
+PART TYPE: comment
+PART AUTHOR: bot
+PART BODY:
+
+Hello Laure, 
+
+Merci beaucoup pour ton message. Je suis Jeremy, en charge de la communication chez PANDA guide. 
+
+Tu peux m'appeler au 06.17.13.21.55 
+
+Dans l'attente de ton retour, bien à toi, belle journée.6.17.13.21
+
+
+------------- ------------- ------------- -------------
+PART TYPE: close
+PART AUTHOR: Jeremy Delage (jeremy@pandaguidesme.com)
+PART BODY:
+
+
+
+
+------------- ------------- ------------- -------------
+PART TYPE: comment
+PART AUTHOR: Laure Menager ()
+PART BODY:
+
+Bonjour Jeremy !
+
+Merci beaucoup de ton retour. Je peux t'appeler aujourd'hui en début d'aprèm, vers 14h30 par exemple ? 
+
+A tout à l'heure,
+Laure
+
+
+------------- ------------- ------------- -------------
+PART TYPE: assignment
+PART AUTHOR: Jeremy Delage (jeremy@pandaguidesme.com)
+PART BODY:
+
+Hello Laure,Je suis encore en RDV à 14h30. Je te propose de m'appeler pour 15h ? Confirme-moi, en retour de ce message. Bien à toi. 
+
+
+------------- ------------- ------------- -------------
+PART TYPE: comment
+PART AUTHOR: Laure Menager ()
+PART BODY:
+
+Oui pas de soucis, je t'appelle vers 15h dans ce cas !
+
+
+------------- ------------- ------------- -------------
+PART TYPE: comment
+PART AUTHOR: Laure Menager ()
+PART BODY:
+
+Merci beaucoup. 
+Bien à toi,
+
+
+------------- ------------- ------------- -------------
+PART TYPE: comment
+PART AUTHOR: Laure Menager ()
+PART BODY:
+
+Laure
+
+
+------------- ------------- ------------- -------------
+PART TYPE: close
+PART AUTHOR: Jeremy Delage (jeremy@pandaguidesme.com)
+PART BODY:
+
+
+
+
+------------- ------------- CONVERSATION 15993610078 END ------------- -------------
+------------- ------------- ------------- ------------- ------------- -------------
+
+

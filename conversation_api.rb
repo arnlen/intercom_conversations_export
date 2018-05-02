@@ -27,24 +27,26 @@ class ConversationApi
 
   def get_all_conversations
     conversation_list = get_first_page_of_conversations
-    conversations = conversation_list["conversations"]
+    conversation_hashes = conversation_list["conversations"]
 
     # Pagination
     current_page = conversation_list["pages"]["page"]
     total_pages = conversation_list["pages"]["total_pages"]
     puts "Total pages: #{total_pages}"
-    puts "Collected conversations so far: #{conversations.count}"
+    puts "Collected conversations so far: #{conversation_hashes.count}"
 
     while current_page < total_pages
       conversation_list = get_next_page_of_conversations(conversation_list['pages']['next'])
       current_page = conversation_list["pages"]["page"]
 
-      conversations += conversation_list["conversations"]
-      puts "Collected conversations so far: #{conversations.count}"
-      puts conversations.inspect
+      conversation_hashes += conversation_list["conversations"]
+      puts "Collected conversations so far: #{conversation_hashes.count}"
     end
 
-    conversations
+    # Get conversation objects
+    conversation_hashes.collect do |conversation_hash|
+      get_single_conversation(conversation_hash['id'])
+    end
   end
 
   private
